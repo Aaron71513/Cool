@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.location {
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.weather-info {
+    font-size: 1.2em;
+    color: #1E90FF;
+}
